@@ -17,14 +17,7 @@
         "OBJECT"
     ],
     "commands": {
-	"timeout_value": {
-          "name": "Wall Time (Seconds)",
-          "type": "STR",
-          "value": "3600",
-          "required": true,
-          "positional": true
-        },
-        "custom": {
+	"custom": {
             "path": "/start.sh",
             "interactive": true,
 	    "webshell": true,
@@ -37,6 +30,13 @@
             "description": "Start a Minecraft Server",
             "verboseinit": true,
             "parameters": {
+		    "timeout_value": {
+          		"name": "Wall Time (Seconds)",
+          		"type": "STR",
+          		"value": "3600",
+          		"required": true,
+          		"positional": true
+        		},
                 }
             }
         },
