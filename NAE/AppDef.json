@@ -32,10 +32,11 @@
             "parameters": {
                 "timeout_value": {
                     "name": "Wall Time (Seconds)",
-                    "type": "INT",
+                    "type": "RANGE",
                     "value": 3600,
                     "min": 3600,
                     "max": 36000,
+                    "step": 3600,
                     "required": true,
                     "positional": true
                 }
