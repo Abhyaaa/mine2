@@ -32,7 +32,7 @@
             "parameters": {
                "timeout_value": {
                      "name": "Wall Time (Seconds)",
-                     "type": "CONST",
+                     "type": "STR",
                      "value": "3600",
                      "required": true,
                      "positional": true
