@@ -32,8 +32,8 @@
 			"parameters": {
 				"timeout_value": {
 					"name": "Wall Time (Seconds)",
-					"type": "STR",
-					"value": [
+					"type": "selection",
+					"values": [
 						"3600",
 						"7200",
 						"36000"
