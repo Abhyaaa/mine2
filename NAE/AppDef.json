@@ -34,7 +34,7 @@
                     "name": "Wall Time (Seconds)",
                     "type": "RANGE",
                     "value": 3600,
-                    "min": 3600,
+                    "min": 180,
                     "max": 36000,
                     "step": 3600,
                     "required": true,
