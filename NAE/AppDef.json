@@ -33,9 +33,9 @@
                 "timeout_value": {
                     "name": "Wall Time (Seconds)",
                     "type": "RANGE",
-                    "value": "3600",
-                    "min": "3600",
-                    "max": "36000",
+                    "value": 3600,
+                    "min": 3600,
+                    "max": 36000,
                     "required": true,
                     "positional": true
                 }
